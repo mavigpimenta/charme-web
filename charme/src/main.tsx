@@ -4,7 +4,6 @@ import { Home } from './home/Home';
 import { Catalog } from './catalog/Catalog';
 import './index.css';
 import 'boxicons/css/boxicons.min.css';
-import React from 'react';
 
 const router = createBrowserRouter([
   {

@@ -2,7 +2,6 @@ import { FaFilePdf, FaMousePointer } from 'react-icons/fa';
 import { NavbarCatalog } from '../components/NavbarCatalog';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { FooterCatalog } from '../footer/FooterCatalog';
-import React from 'react';
 
 export const Catalog = () => {
     return (

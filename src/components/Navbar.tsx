@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '/logo_completa.png';
+import Logo from '/logo_completa.png'
 import { Link } from 'react-router-dom';
 
 interface NavbarProps {

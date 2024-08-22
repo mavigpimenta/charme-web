@@ -1,7 +1,9 @@
-import { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '/logo_completa.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import Logo from '../../public/logo_completa.png'
+
 
 export const NavbarCatalog = () => {
     const [isOpen, setIsOpen] = useState(false);

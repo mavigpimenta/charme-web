@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from '../../public/logo_completa.png'
 
 
 export const NavbarCatalog = () => {
@@ -16,7 +15,7 @@ export const NavbarCatalog = () => {
         <nav className="bg-white z-50 w-full fixed text-gray-900 px-6 py-2 h-24 flex items-center justify-between shadow-lg">
             <div className="flex items-center p-3 sm:pl-20">
                 <Link to="/">
-                    <img src={Logo} alt="Logo" className="w-40" />
+                    <img src="/logo_completa.png" alt="Logo" className="w-40" />
                 </Link>
             </div>
             <div className="md:hidden"> 

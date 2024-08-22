@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '/logo_completa.png'
 import { Link } from 'react-router-dom';
 
 interface NavbarProps {
@@ -14,7 +13,7 @@ export const Navbar: React.FC<NavbarProps> = ({ scrollToSection, isOpen, toggleM
         <nav className="bg-white z-50 w-full fixed text-gray-900 px-6 py-2 flex items-center justify-between shadow-lg">
             <div className="flex items-center p-3 sm:pl-20">
                 <a href="#home">
-                    <img src={Logo} alt="Logo" className="w-40" />
+                    <img src="/logo_completa.png" alt="Logo" className="w-40" />
                 </a>
             </div>
             <div className="md:hidden">

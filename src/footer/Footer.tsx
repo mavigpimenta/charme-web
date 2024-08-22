@@ -1,11 +1,10 @@
 import React from 'react';
-import Logo from '/logo_completa.png';
 
 export const Footer = () => {
     return (
         <>
             <footer className="shadow-2xl text-center py-6 w-full bg-white">
-                <img src={Logo} alt="Logo" className="mx-auto w-40 h-auto mb-4" />
+                <img src="/logo_completa.png" alt="Logo" className="mx-auto w-40 h-auto mb-4" />
                 <div className="flex justify-center mb-4">
                     <a href="https://www.instagram.com/joao_dlk/" className="mx-4 text-2xl text-gray-800 transition-colors duration-300 hover:text-orange-600">
                         <i className="bx bxl-instagram"></i>

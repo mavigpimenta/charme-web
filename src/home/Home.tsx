@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import BackgroundImage from '/home.avif'; 
 import { Navbar } from '../components/Navbar';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import { Link } from 'react-router-dom';
 import { Footer } from '../footer/Footer';
-import Joao from '/joao.jpeg'
 
 export const Home = () => {
     const [name, setName] = useState<string>('');
@@ -56,7 +54,7 @@ export const Home = () => {
     return (
         <>
             <Navbar scrollToSection={scrollToSection} isOpen={isOpen} toggleMenu={toggleMenu} />
-            <section id="home" className="relative flex flex-col items-center justify-center h-screen bg-black bg-cover bg-center" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+            <section id="home" className="relative flex flex-col items-center justify-center h-screen bg-black bg-cover bg-center" style={{ backgroundImage: `url(/home.avif)` }}>
                 <div className="absolute inset-0 bg-black opacity-50 z-10"></div> 
                 <div className="relative z-20 flex flex-col items-center justify-center text-center text-white p-6 sm:p-10">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Conheça nossos produtos!</h1>
@@ -72,7 +70,7 @@ export const Home = () => {
             </section>
             <section id="about" className="flex flex-col md:flex-row items-center justify-center p-6 md:p-12 bg-gray-100 gap-20">
                 <div className="w-72">
-                    <img src={Joao} alt="Sobre Nós" className="w-72 rounded-lg shadow-lg" />
+                    <img src="/joao.jpeg" alt="Sobre Nós" className="w-72 rounded-lg shadow-lg" />
                 </div>
                 <div className="w-full md:w-1/2 p-4 text-center md:text-left">
                     <h2 className="text-2xl md:text-3xl font-semibold mb-4">Quem Somos?</h2>
